@@ -28,8 +28,8 @@
                     <label class="block text-gray-700 text-sm font-semibold mb-2" htmlFor="signup-email">Email</label>
                     <input class="text-sm appearance-none rounded w-full py-2 px-3 text-gray-700 bg-gray-200 leading-tight focus:outline-none focus:shadow-outline h-10"
                     id="signup-email"
-                    type="text"
-                    placeholder="Votre adresse mail" required/>
+                    type="email"
+                    placeholder="Votre adresse mail" required pattern="[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([_\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})"/>
                 </div>
                 <div class="mb-6 mt-6">
                     <label class="block text-gray-700 text-sm font-semibold mb-2" htmlFor="signup-password" >Mot de Passe</label>

@@ -2,7 +2,7 @@
 <div>   
       
    <div v-if="posts.length == 0">
-        <h1 class="p-4 font-bold text-2xl text-gray-800">Bienvenu sur le réseau social interne</h1>
+        <h1 class="p-4 font-bold text-2xl text-gray-800">Bienvenue sur le réseau social interne</h1>
          
         <p class="mt-2 text-sm text-gray-400">Vous êtes la première personne à vous connecter, félicitations !<br>
         Il n'y a aucun message à lire pour le moment...<br>

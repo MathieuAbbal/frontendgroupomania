@@ -119,7 +119,9 @@ export default{
                 }
             }
         )
-        .then(()=> location.href='/')
+        
+        
+        .then(() => this.$router.push({path:'/'}));
         },
         toggleModal(){
             this.visible = !this.visible;

@@ -36,7 +36,9 @@
                     <input class="text-sm bg-gray-200 appearance-none rounded w-full py-2 px-3 text-gray-700 mb-1 leading-tight focus:outline-none focus:shadow-outline h-10"
                     id="signup-password"
                     type="password"
-                    placeholder="Votre mot de passe" required/>       
+                    maxlength="15" minlength="6"
+                    title="Votre mot de passe doit contenir entre 6 et 15 caractères une majuscule, une minuscule et au moins un chiffres"
+                    placeholder="Votre mot de passe" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{6,}$"/>       
                 </div>
                 <div class="mb-6 mt-6">
                     <label class="block text-gray-700 text-sm font-semibold mb-2" htmlFor="signup-password-verify" >Vérification du mot de passe</label>
